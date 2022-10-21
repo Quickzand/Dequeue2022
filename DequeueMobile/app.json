@@ -1,4 +1,11 @@
 {
-  "name": "DequeueMobile",
-  "displayName": "DequeueMobile"
+  "expo": {
+    "name": "DequeueMobile",
+    "slug": "DequeueMobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "DequeueMobile"
 }
