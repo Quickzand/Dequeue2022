@@ -16,6 +16,7 @@ export default function App() {
 					headerShown: false,
 				}}>
 				<Stack.Screen name="Home" component={HomeScreen} />
+				<Stack.Screen name="Settings" component={HomeScreen} />
 			</Stack.Navigator>
 			<Navbar></Navbar>
 		</NavigationContainer>
