@@ -4,6 +4,7 @@ import { TouchableOpacity, View, Text } from "react-native";
 // Imports icon
 import { FontAwesome } from "@expo/vector-icons";
 import { TouchableWithoutFeedback } from "react-native-web";
+import { ThemeConsumer } from "react-bootstrap/esm/ThemeProvider";
 
 class Navbar extends React.Component {
 	constructor(props) {
@@ -13,8 +14,8 @@ class Navbar extends React.Component {
 	render() {
 		return (
 			<View style={styles.navbar}>
-				<NavButton />
-				<NavButton iconName="gear" />
+				<NavButton iconName="home" navigation={this.props.navigation} />
+				<NavButton iconName="gear" navigation={this.props.navigation} />
 			</View>
 		);
 	}
@@ -63,6 +64,7 @@ class NavButton extends React.Component {
 		console.log(this.state.selected);
 		this.setState({ selected: true });
 		this.state.onPress();
+		this.props.navigation.navigate("Settings", { name: "Jane" });
 	}
 }
 
