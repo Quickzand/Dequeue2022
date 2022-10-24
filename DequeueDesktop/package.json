@@ -1,0 +1,24 @@
+{
+  "name": "dequeuedesktop",
+  "version": "1.0.0",
+  "description": "Shortcut manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quickzand/Dequeue2022.git"
+  },
+  "author": "Dequeue Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Quickzand/Dequeue2022/issues"
+  },
+  "homepage": "https://github.com/Quickzand/Dequeue2022#readme",
+  "devDependencies": {
+    "electron": "^21.2.0"
+  },
+  "dependencies": {}
+}
